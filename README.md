@@ -10,6 +10,8 @@ This repo contains the solutions of the quiz.
 
 ```bash
 # using NodeJS
+$ git clone https://github.com/unreadable/quiz
+$ cd quiz
 $ node solutions/top-entries.js
 $ node solutions/parser.js
 ```
