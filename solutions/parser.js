@@ -19,7 +19,7 @@ class Parser {
         this.parsedHierarchy = [];
     }
 
-    // miniaml processing to ease parsing
+    // minimal processing to ease parsing
     formatInput(input, skip) {
         return input.substring(input.indexOf(this.tokens.COMMA), input.length - 1)
             .replace(new RegExp(skip, 'g'), this.tokens.NIL)
